@@ -1,0 +1,130 @@
+body {
+    background-color: rgba(222, 221, 221, 1);
+}
+
+strong {
+    font-weight: bolder;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+header {
+    width: 100%;
+    height: 90px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+}
+
+header nav {
+    width: 80%;
+    align-items: center;
+
+}
+
+header nav ul li img {
+    width: 80px;
+    height: 80px;
+    float: right;
+}
+
+.conteiner {
+    width: 80%;
+    margin-inline: auto;
+    margin-top: 50px;
+}
+
+#itens {
+    margin-top: 20px;
+}
+
+#foods {
+    width: 100%;
+    height: 300px;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    overflow: auto;
+}
+
+#foods .food {
+    width: 200px;
+    height: 230px;
+    background-color: rgba(252, 252, 252, 1);
+    border-radius: 5%;
+}
+
+#foods .food img {
+    width: 200px;
+    height: 130px;
+    border-radius: 5%;
+}
+
+#itens .titulo {
+    margin-top: 15px;
+}
+
+#itens .descricao {
+    color: rgba(77, 77, 77, 1);
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+#itens .informacoes {
+    margin-left: 10px;
+}
+
+#drinks {
+    width: 100%;
+    height: 300px;
+   
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    overflow: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#drinks .drink {
+    width: 200px;
+    height: 250px;
+    background-color: rgba(252, 252, 252, 1);
+    border-radius: 5%;
+}
+
+#desserts {
+    width: 100%;
+    height: 300px;
+  
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    overflow: auto;
+}
+
+#desserts .dessert {
+    width: 200px;
+    height: 250px;
+    background-color: rgba(252, 252, 252, 1);
+    border-radius: 5%;
+}
+
+#drinks .drink img {
+    width: 200px;
+    height: 130px;
+    border-radius: 5%;
+    object-fit: cover;
+}
+
+#desserts .dessert img {
+    width: 200px;
+    height: 130px;
+    border-radius: 5%;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
