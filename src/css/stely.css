@@ -10,6 +10,10 @@ h2 {
     font-size: 20px;
 }
 
+h1{
+    font-size: 25px;
+}
+
 header {
     width: 100%;
     height: 90px;
@@ -33,9 +37,9 @@ header nav ul li img {
 }
 
 .conteiner {
-    width: 80%;
-  padding-top: 100px;
-  padding-bottom: 100px;
+    width: 90%;
+    padding-top: 100px;
+    padding-bottom: 100px;
     margin-inline: auto;
     margin-top: 50px;
 }
@@ -155,15 +159,16 @@ footer {
     background-color: rgba(95, 93, 93, 1);
     position: fixed;
     bottom: 0;
-  
+
 }
 
 .void {
     display: none;
 }
 
-.pgfinal{
-   align-items: center;
+.pgfinal {
+    align-items: center;
+    text-align: center;
     display: flex;
     flex-direction: column;
     color: rgba(255, 255, 255, 1);
@@ -179,20 +184,22 @@ footer {
     background-color: rgba(255, 255, 255, 1);
 }
 
-.pedidos{
+.pedidos {
     margin-top: 20px;
     margin-bottom: 20px;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 20px;
+    font-size: 20px;
 }
 
-h1{
+h1 {
     font-size: 32px;
 }
-.conteudo2{
-    width: 80%;
-    height: 633px;
+
+.conteudo2 {
+    width: 100%;
+    height: 667px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -200,3 +207,19 @@ h1{
     background-color: green;
 }
 
+.select {
+    border: solid 2px orangered;
+    padding: 2px;
+}
+
+.avancar{
+    border: none;
+    width: 100px;
+    padding: 15px;
+    font-weight: bolder;
+ justify-content: center;
+    display: flex ;
+    font-size: 20px;
+    color: white;
+    background-color: orangered;
+}
