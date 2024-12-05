@@ -91,7 +91,7 @@ function whatsapp() {
   let numero = "5571988259196";
   let mensagem = "Olá, gostaria de confirmar meu pedido: ";
   let mensagemFormatada = encodeURIComponent(mensagem)
-   +  food + " R$" + valorFood + ", " + drink + " R$" + valorDrink + ", " + dessert + " R$" + valorDessert + ", " + " Total: R$" + total;
+   +  food + " R$" + valorFood + ", " + drink + " R$" + valorDrink + ", " + dessert + " R$" + valorDessert + ", " + " Total: R$" + total.toFixed(2);
 
   let urlWhatsApp = "https://wa.me/" + 71988259196 + "?text=" + mensagemFormatada;
   window.open(urlWhatsApp, "_blank");
